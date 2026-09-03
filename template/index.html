@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Restaurante Komorebi</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Fonte japonesa -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/template/index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/template/cardapio.html">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/template/delivery.html">Delivery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/template/contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MAIN
+       ===================================================== -->
+
+  <main
+    id="inicio"
+    class="main-section"
+  >
+
+    <div class="container">
+
+
+      <!-- Título principal -->
+      <div class="text-center">
+
+        <h2 class="section-title">
+          Produtos oferecidos por nós!
+        </h2>
+
+      </div>
+
+
+
+      <!-- =================================================
+           CARROSSEL
+           ================================================= -->
+
+      <div
+        id="carouselKomorebi"
+        class="carousel slide mb-5"
+        data-bs-ride="carousel"
+      >
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+
+          <button
+            type="button"
+            data-bs-target="#carouselKomorebi"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselKomorebi"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselKomorebi"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+
+        </div>
+
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+
+            <img
+              src="https://images.unsplash.com/photo-1546069901-eacef0df6022?auto=format&fit=crop&w=1500&q=80"
+              class="d-block w-100"
+              alt="Prato de comida japonesa"
+            >
+
+          </div>
+
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+
+            <img
+              src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1500&q=80"
+              class="d-block w-100"
+              alt="Sushi e pratos japoneses"
+            >
+
+          </div>
+
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+
+            <img
+              src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1500&q=80"
+              class="d-block w-100"
+              alt="Pratos variados de restaurante"
+            >
+
+          </div>
+
+        </div>
+
+
+        <!-- Anterior -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselKomorebi"
+          data-bs-slide="prev"
+        >
+
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+
+          <span class="visually-hidden">
+            Anterior
+          </span>
+
+        </button>
+
+
+        <!-- Próximo -->
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselKomorebi"
+          data-bs-slide="next"
+        >
+
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+
+          <span class="visually-hidden">
+            Próximo
+          </span>
+
+        </button>
+
+      </div>
+
+
+
+      <!-- =================================================
+           CARDÁPIO
+           ================================================= -->
+
+      <section
+        id="cardapio"
+        class="mb-5"
+        aria-labelledby="titulo-cardapio"
+      >
+
+        <h2
+          id="titulo-cardapio"
+          class="section-title text-center"
+        >
+          Nosso Cardápio
+        </h2>
+
+
+        <div class="table-responsive">
+
+          <table class="table align-middle">
+
+            <thead>
+
+              <tr>
+
+                <th scope="col">
+                  #
+                </th>
+
+                <th scope="col">
+                  Produto
+                </th>
+
+                <th scope="col">
+                  Descrição
+                </th>
+
+                <th scope="col">
+                  Preço
+                </th>
+
+              </tr>
+
+            </thead>
+
+
+            <tbody>
+
+              <tr>
+
+                <th scope="row">
+                  1
+                </th>
+
+                <td>
+                  <strong>Combo Sushi Clássico</strong>
+                </td>
+
+                <td>
+                  Sushi variado com peixe fresco e arroz especial.
+                </td>
+
+                <td>
+                  R$ 64,90
+                </td>
+
+              </tr>
+
+
+              <tr>
+
+                <th scope="row">
+                  2
+                </th>
+
+                <td>
+                  <strong>Temaki Especial</strong>
+                </td>
+
+                <td>
+                  Temaki com recheio de salmão e camarão crocante.
+                </td>
+
+                <td>
+                  R$ 22,50
+                </td>
+
+              </tr>
+
+
+              <tr>
+
+                <th scope="row">
+                  3
+                </th>
+
+                <td>
+                  <strong>Prato do Chef</strong>
+                </td>
+
+                <td>
+                  Seleção gourmet com toque sazonal.
+                </td>
+
+                <td>
+                  R$ 48,00
+                </td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =================================================
+           RESERVAS
+           ================================================= -->
+
+      <section
+        id="reservas"
+        class="text-center mb-5"
+      >
+
+        <h2 class="section-title">
+          Reservas
+        </h2>
+
+        <p>
+          Reserve sua mesa e desfrute de uma experiência
+          especial da culinária japonesa no Komorebi.
+        </p>
+
+        <a
+          href="/template/contato.html"
+          class="btn btn-outline-success mt-2"
+        >
+          Entre em contato
+        </a>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer
+    id="contato"
+    class="site-footer"
+  >
+
+    <div class="container">
+
+      <div class="row align-items-center">
+
+        <!-- Informações -->
+        <div
+          class="col-md-6 text-md-start text-center mb-3 mb-md-0"
+        >
+
+          <strong>
+            Restaurante Komorebi
+          </strong>
+
+          <span>
+            — © <span id="year"></span>
+          </span>
+
+        </div>
+
+
+        <!-- Links -->
+        <div
+          class="col-md-6 text-md-end text-center"
+        >
+
+          <a
+            href="#"
+            class="me-3"
+          >
+            Política de privacidade
+          </a>
+
+          <a href="#">
+            Termos
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =====================================================
+       BOOTSTRAP JAVASCRIPT
+       ===================================================== -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+
+  <!-- Ano automático -->
+  <script>
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+  </script>
+
+</body>
+
+</html>
