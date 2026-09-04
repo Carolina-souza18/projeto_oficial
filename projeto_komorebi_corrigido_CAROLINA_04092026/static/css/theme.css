@@ -1,0 +1,36 @@
+:root{--red:#a52a25;--red-dark:#6f1717;--orange:#df6b2d;--cream:#f3ead8;--cream-2:#d8c9ad;--green:#27382f;--green-2:#1b2923;--ink:#0f1713;--panel:#1b241f;--muted:#bfb4a0;--border:#48584e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Noto Sans JP",sans-serif;background:radial-gradient(circle at 12% 5%,rgba(165,42,37,.18),transparent 28%),linear-gradient(135deg,#0e1512,#26332c 48%,#121914);color:var(--cream);min-height:100vh}
+.site-header{position:sticky;top:0;z-index:1000;background:linear-gradient(135deg,#0c1210,#25362d 55%,#111714);border-bottom:3px solid var(--red);box-shadow:0 8px 26px rgba(0,0,0,.45)}.site-header:after{content:"";display:block;height:2px;background:linear-gradient(90deg,var(--red),var(--orange),var(--cream-2),var(--orange),var(--red))}.site-header .navbar{padding:9px 0}.brand-logo{width:62px;height:62px;object-fit:cover;border-radius:50%;border:2px solid var(--cream-2);box-shadow:0 0 18px rgba(223,107,45,.18)}.navbar-brand{color:inherit!important}.brand-title{color:var(--cream);font-size:1.2rem;font-weight:700;letter-spacing:1px;line-height:1.15}.brand-sub{color:var(--muted);font-size:.72rem;margin-top:4px}.navbar-nav{gap:6px}.nav-link{color:#e9dfcd!important;font-weight:600;padding:9px 14px!important;border-radius:8px;transition:.2s}.nav-link:hover{background:rgba(165,42,37,.65);color:#fff!important}.nav-link.active{background:linear-gradient(135deg,var(--red),var(--red-dark));color:#fff!important;box-shadow:inset 0 -2px var(--orange)}.navbar-toggler{border-color:var(--cream-2)!important}.navbar-toggler-icon{filter:invert(1)}
+.main-section,.main-section-contact,.main-section-delivery,.main-section-register{min-height:calc(100vh - 170px);padding:58px 0 72px;background:transparent!important}.section-title,.contact-title,.delivery-title,.page-title{color:var(--cream)!important;text-align:center;font-weight:700;letter-spacing:.8px;margin:0 auto 38px}.section-title:after,.contact-title:after,.delivery-title:after,.page-title:after{content:"";display:block;width:90px;height:3px;margin:14px auto 0;border-radius:10px;background:linear-gradient(90deg,var(--red),var(--orange),var(--red))}
+.carousel{overflow:hidden;border:1px solid var(--cream-2);border-radius:16px;background:#0d120f;box-shadow:0 18px 50px rgba(0,0,0,.5)}.carousel-item img{height:430px;object-fit:cover;filter:brightness(.75) contrast(1.06)}
+.table-responsive,.info-section,.form-section,.delivery-section,.register-wrapper{background:rgba(24,34,29,.94)!important;border:1px solid var(--border)!important;border-radius:16px!important;box-shadow:0 16px 42px rgba(0,0,0,.38)!important;overflow:hidden}.table{margin:0!important;color:var(--cream)!important}.table thead th{background:linear-gradient(135deg,var(--red),var(--red-dark))!important;color:var(--cream)!important;border:0!important;padding:16px!important}.table tbody td,.table tbody th{background:#1b241f!important;color:var(--cream)!important;border-color:#39483f!important;padding:16px!important}.table tbody tr:nth-child(even) td,.table tbody tr:nth-child(even) th{background:#222e27!important}
+.menu-page{padding:58px 12px 72px}.menu-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.menu-grid .card{width:100%!important;margin:0!important;background:var(--panel)!important;color:var(--cream)!important;border:1px solid var(--border)!important;border-radius:16px!important;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.34);transition:.25s}.menu-grid .card:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(0,0,0,.46)}.menu-grid .card-img-top{height:230px;object-fit:cover}.menu-grid .card-body{display:flex;flex-direction:column;padding:20px}.menu-grid .card-title{font-size:1.12rem;color:var(--cream);font-weight:700}.menu-grid .card-text{white-space:pre-line;color:var(--muted);flex:1}.btn-primary,.btn-checkout,.btn-send,.btn-register-submit{background:linear-gradient(135deg,var(--red),var(--red-dark))!important;border:1px solid #b8493f!important;color:#fff!important;border-radius:9px!important;font-weight:700!important;padding:10px 16px!important}.btn-primary:hover,.btn-checkout:hover,.btn-send:hover,.btn-register-submit:hover{filter:brightness(1.12);transform:translateY(-1px)}.btn-outline-success{border-color:var(--orange)!important;color:#f0b07b!important}.btn-outline-success:hover{background:var(--red)!important;border-color:var(--red)!important;color:#fff!important}
+.info-section,.form-section,.delivery-section{padding:28px;margin-bottom:28px}.info-block{border-bottom:1px solid #39483f;padding:0 0 18px;margin-bottom:18px}.info-block:last-child{border-bottom:0;margin-bottom:0}.info-heading,.form-section-title{color:#edc58f!important}.info-text,.form-disclaimer{color:var(--muted)!important}.contact-link,.site-footer a{color:#e8b36f!important}.form-control-contact,.form-control-delivery,.form-control-register,.form-select,.form-control{background:#111a16!important;border:1px solid var(--border)!important;color:var(--cream)!important;border-radius:9px!important}.form-control-contact:focus,.form-control-delivery:focus,.form-control-register:focus,.form-control:focus{border-color:var(--orange)!important;box-shadow:0 0 0 3px rgba(223,107,45,.13)!important}.register-logo{content:url('/static/img/logo.png');border-radius:50%}.register-image-side{background:#101713!important}
+.site-footer{background:linear-gradient(135deg,#0b100e,#233129,#0d120f);border-top:3px solid var(--red);padding:30px 0;color:var(--cream);box-shadow:0 -8px 24px rgba(0,0,0,.3)}.site-footer strong{color:var(--cream)}
+@media(max-width:991px){.menu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.carousel-item img{height:340px}.brand-sub{display:none}}@media(max-width:576px){.main-section,.main-section-contact,.main-section-delivery,.main-section-register,.menu-page{padding-top:38px}.menu-grid{grid-template-columns:1fr}.brand-logo{width:50px;height:50px}.brand-title{font-size:1rem}.carousel-item img{height:250px}.info-section,.form-section,.delivery-section{padding:20px}.site-footer{text-align:center}}
+
+
+/* Correções de compatibilidade */
+body { min-height: 100vh; }
+.brand-logo { display:block; flex:0 0 auto; }
+.checkout-main { padding-top: 20px; }
+@media (max-width: 991px) {
+  .site-header .navbar-collapse { background: rgba(16,23,20,.98); padding: 12px; border-radius: 8px; margin-top: 10px; }
+}
+
+/* =========================================================
+   HEADER PADRÃO — HOME / CARDÁPIO / DELIVERY / CONTATO
+   ========================================================= */
+body > .site-header {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body > .site-header .navbar,
+body > .site-header .container-fluid {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}

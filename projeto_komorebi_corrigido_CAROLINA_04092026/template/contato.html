@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Contato | Komorebi</title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" rel="stylesheet" />
+  <link href="../static/css/contato.css" rel="stylesheet" />
+  <link href="../static/img/logo.png" rel="icon" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap"
+    rel="stylesheet" />
+  <link href="../static/css/theme.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-4"><a class="navbar-brand d-flex align-items-center" href="index.html"><img
+            alt="Logo Komorebi" class="brand-logo" src="../static/img/logo.png" />
+          <div class="ms-3">
+            <div class="brand-title">Komorebi</div>
+            <div class="brand-sub">O Japão clássico no seu paladar</div>
+          </div>
+        </a><button aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu" class="navbar-toggler"
+          data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+            <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN CONTENT -->
+  <main class="main-section-contact">
+    <div class="container">
+      <!-- TÍTULO -->
+      <h1 class="contact-title">CONTATOS KOMOREBI</h1>
+      <!-- SEÇÃO DE INFORMAÇÕES -->
+      <section class="info-section">
+        <!-- ENDEREÇO -->
+        <div class="info-block">
+          <h3 class="info-heading">Endereço Completo:</h3>
+          <p class="info-text">Av. Exemplo de Rua, 123 - Bairro</p>
+          <p class="info-text">Nome da Cidade - SP | CEP: 00.000-000</p>
+        </div>
+        <!-- TELEFONE E WHATSAPP -->
+        <div class="info-block">
+          <h3 class="info-heading">Telefone/Whatsapp:</h3>
+          <p class="info-text">(11) 99999-9999 | (11) 4444-4444</p>
+        </div>
+        <!-- HORÁRIOS -->
+        <div class="info-block">
+          <h3 class="info-heading">Horários de funcionamento:</h3>
+          <p class="info-text"><strong>Segunda à Sexta:</strong> Das 11h às 20h. <strong>Sábado e Domingo:</strong> 10h
+            às 21h.</p>
+          <p class="info-text"><strong>Feriados:</strong> 10h às 19h.</p>
+        </div>
+        <!-- EMAILS -->
+        <div class="info-block">
+          <h3 class="info-heading">Email's:</h3>
+          <p class="info-text"><strong>Para Dúvidas:</strong> duvidas@komorebii.com.br.</p>
+          <p class="info-text"><strong>Para Reservas:</strong> reservas@komorebii.com.br.</p>
+          <p class="info-text"><strong>Para Sugestões:</strong> sugestoes@komorebii.com.br.</p>
+        </div>
+        <!-- LINKS ÚTEIS -->
+        <div class="info-block">
+          <h3 class="info-heading">Links Úteis:</h3>
+          <p class="info-text"><strong>Instagram:</strong> <a class="contact-link"
+              href="https://instagram.com/komorebii" target="_blank">https://instagram.com/komorebii</a></p>
+          <p class="info-text"><strong>Whatsapp:</strong> <a class="contact-link" href="https://wa.me/5511999999999"
+              target="_blank">https://wa.me/5511999999999</a></p>
+          <p class="info-text"><strong>Facebook:</strong> <a class="contact-link" href="https://facebook.com/komorebii"
+              target="_blank">https://facebook.com/komorebii</a></p>
+          <p class="info-text"><strong>LinkedIn:</strong> <a class="contact-link"
+              href="https://linkedin.com/company/komorebii" target="_blank">https://linkedin.com/company/komorebii</a>
+          </p>
+        </div>
+      </section>
+      <!-- FORMULÁRIO -->
+      <section class="form-section">
+        <h2 class="form-section-title">Formulário</h2>
+        <form class="contact-form">
+          <div class="row">
+            <!-- NOME COMPLETO -->
+            <div class="col-md-6 mb-4">
+              <label class="form-label-contact" for="nome">Nome Completo:</label>
+              <input class="form-control-contact" id="nome" placeholder="Digite o seu nome completo" type="text" />
+            </div>
+            <!-- MOTIVO DO CONTATO -->
+            <div class="col-md-6 mb-4">
+              <label class="form-label-contact" for="motivo">Motivo do Contato:</label>
+              <select class="form-control-contact" id="motivo">
+                <option value="">Selecione uma opção</option>
+                <option value="duvida">Dúvida / Informação</option>
+                <option value="reserva">Reserva</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="feedback">Feedback / Sugestão</option>
+                <option value="outros">Outros (Especificar)</option>
+              </select>
+            </div>
+            <!-- TELEFONE / WHATSAPP -->
+            <div class="col-md-6 mb-4">
+              <label class="form-label-contact" for="telefone">Telefone/Whatsapp:</label>
+              <input class="form-control-contact" id="telefone" placeholder="(11) xxxxx-xxxx" type="tel" />
+            </div>
+            <!-- EMAIL -->
+            <div class="col-md-6 mb-4">
+              <label class="form-label-contact" for="email">Email:</label>
+              <input class="form-control-contact" id="email" placeholder="xxxxx@xxxxx@gmail.com" type="email" />
+            </div>
+            <!-- MENSAGEM -->
+            <div class="col-md-12 mb-4">
+              <label class="form-label-contact" for="mensagem">Mensagem:</label>
+              <textarea class="form-control-contact textarea-contact" id="mensagem" placeholder="Digite a sua mensagem"
+                rows="5"></textarea>
+            </div>
+          </div>
+          <!-- DISCLAIMER -->
+          <p class="form-disclaimer">* Queremos lembrar ao User a confiança e reputação é coisa do cotidiano, promovemos
+            o cuidado do atendimento para qual ao seu contato.</p>
+          <!-- BOTÃO ENVIAR -->
+          <div class="button-section-contact">
+            <button class="btn-send" type="submit">ENVIAR</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-md-start text-center mb-3 mb-md-0">
+          <strong>Restaurante Komorebi</strong>
+          <span>— © <span id="year"></span></span>
+        </div>
+        <div class="col-md-6 text-md-end text-center">
+          <a href="#">Política de privacidade</a>
+          <a class="ms-3" href="#">Termos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script crossorigin="anonymous" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

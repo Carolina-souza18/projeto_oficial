@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Registre-se | Komorebi</title>
+  <link href="../static/css/login_cliente.css" rel="stylesheet" />
+  <style>
+    /* Preenchimento total do lado direito para a imagem única */
+    .register-image-side {
+      padding: 0 !important;
+      overflow: hidden;
+    }
+
+    .single-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+  <link href="../static/img/logo.png" rel="icon" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap"
+    rel="stylesheet" />
+  <link href="../static/css/theme.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-4"><a class="navbar-brand d-flex align-items-center" href="index.html"><img
+            alt="Logo Komorebi" class="brand-logo" src="../static/img/logo.png" />
+          <div class="ms-3">
+            <div class="brand-title">Komorebi</div>
+            <div class="brand-sub">O Japão clássico no seu paladar</div>
+          </div>
+        </a><button aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu" class="navbar-toggler"
+          data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+            <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN CONTENT -->
+  <main class="main-section-register">
+    <div class="register-container">
+      <div class="register-wrapper">
+        <!-- LEFT SIDE - FORM -->
+        <div class="register-form-side">
+          <div class="register-form-scroll">
+            <div class="register-form-content">
+              <!-- LOGO -->
+              <div class="register-logo-section">
+                <img alt="Komorebi Logo" class="register-logo"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%238b1e24'/%3E%3Ctext x='50' y='60' font-size='40' font-weight='bold' fill='white' text-anchor='middle'%3E🍣%3C/text%3E%3C/svg%3E" />
+              </div>
+              <!-- TÍTULO -->
+              <h1 class="register-title">Registre-se</h1>
+              <!-- BOTÕES DE LOGIN SOCIAL -->
+              <div class="social-login-buttons">
+                <button aria-label="Registrar com Google" class="btn-social btn-google" type="button">
+                  <svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+                    <path
+                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z">
+                    </path>
+                    <path
+                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z">
+                    </path>
+                    <path
+                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z">
+                    </path>
+                    <path
+                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z">
+                    </path>
+                  </svg>
+                  <span class="btn-text">Google</span>
+                </button>
+                <button aria-label="Registrar com Facebook" class="btn-social btn-facebook" type="button">
+                  <svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
+                    </path>
+                  </svg>
+                  <span class="btn-text">Facebook</span>
+                </button>
+                <button aria-label="Registrar com Email" class="btn-social btn-email" type="button">
+                  <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2"
+                    viewbox="0 0 24 24" width="20">
+                    <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <span class="btn-text">Email</span>
+                </button>
+              </div>
+              <!-- DIVISOR -->
+              <div class="divider-or">
+                <span>ou</span>
+              </div>
+              <!-- FORM -->
+              <form class="register-form" novalidate="">
+                <div class="mb-3">
+                  <input aria-label="Email" class="form-control-register" placeholder="Seu email" required=""
+                    type="email" />
+                </div>
+                <div class="mb-3">
+                  <input aria-label="Senha" class="form-control-register" placeholder="Sua senha" required=""
+                    type="password" />
+                </div>
+                <button class="btn-register-submit" type="submit">Registrar</button>
+              </form>
+              <!-- LOGIN LINK -->
+              <p class="register-login-link">
+                Já tem conta? <a class="link-login" href="index.html">Faça login aqui</a>
+              </p>
+            </div>
+            <!-- FOOTER TEXT -->
+            <div class="register-footer-text">
+              <p class="footer-disclaimer">Seu perfil será automaticamente definido como público ao se registrar. Você
+                poderá mudar isso depois nas configurações do seu perfil.</p>
+              <p class="footer-terms">
+                Ao registrar, você concorda com nossos <a class="footer-link" href="#">Termos de Uso</a> e <a
+                  class="footer-link" href="#">Política de Privacidade</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT SIDE - SINGLE BANNER IMAGE -->
+        <div class="register-image-side">
+          <!-- Insira o caminho ou nome do arquivo da sua foto no src abaixo -->
+          <img alt="Pratos Komorebi" class="single-banner-image" src="../static/img/transferir.jpg" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-md-start text-center mb-3 mb-md-0">
+          <strong>Restaurante Komorebi</strong>
+          <span>— © <span id="year"></span></span>
+        </div>
+        <div class="col-md-6 text-md-end text-center">
+          <a href="#">Política de privacidade</a>
+          <a class="ms-3" href="#">Termos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
